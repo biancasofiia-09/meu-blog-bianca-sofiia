@@ -1,0 +1,55 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #cf7ec9;
+    color: #000000;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #e41ad3;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(192, 66, 182, 0.993);
+    text-align: center;
+}
+
+h2 {
+    color: #9a14d8;
+    margin-bottom: 20px;
+}
+
+.sobre-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-item {
+    background: #fa1fb8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(230, 8, 75, 0.808);
+    text-align: left;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}

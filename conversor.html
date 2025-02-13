@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conversor de Unidades</title>
+<link rel="stylesheet" href="css/conversor.css">
+<body>
+    <div class="container">
+    <h1>Conversor de Unidades</h1>
+    <label for="valor">Digite o valor:</label>
+    <input type="number" id="valor" placeholder="Digite o valor" />
+    <label for="unidadeOriginal">Selecione a unidade original:</label>
+    <select id="unidadeOriginal">
+        <option value="metros">Metros</option>
+        <option value="quilometros">Quilômetros</option>
+        <option value="centimetros">Centímetros</option>
+        <option value="milimetros">Milímetros</option>
+    </select>
+
+    <label for="unidadeConvertida">Selecione a unidade para converter:</label>
+    <select id="unidadeConvertida">
+        <option value="metros">Metros</option>
+        <option value="quilometros">Quilômetros</option>
+        <option value="centimetros">Centímetros</option>
+        <option value="milimetros">Milímetros</option>
+    </select>
+
+    <button onclick="converter()">Converter</button>
+
+    <div id="resultado" class="result">
+        <!-- O resultado da conversão será exibido aqui -->
+    </div>
+    </div>
+    <script src="conversor.js"></script>
+    </body>
+    </html>
+

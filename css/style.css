@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    color: black ;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:black;
+    background-color:#ab47bc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+#home {
+    background-color: #ba68c8 ;
+}
+
+#sobre {
+    background-color:#ce93d8;
+}
+
+#contato {
+    background-color: #e1bee7 ;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color:#d500f9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #6a1b9a;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4a148c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
